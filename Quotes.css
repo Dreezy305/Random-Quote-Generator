@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+body{
+  background-color: orange;
+  font-family: 'Arima Madurai', 'Raleway', sans-serif, cursive;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  margin: auto;
+  height: 50vh;
+}
+
+#Container{
+  border-style: 1px solid black;
+  border-width: 2px;
+}
+
+#Container-fluid{
+  text-align: center;
+  font-size: 25px;
+}
+
+h2{
+  color: green;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-shadow: 2px 2px 5px red;
+}
+
+h3{
+  color: red;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-style: oblique;
+  text-shadow: 2px 2px  green;
+}
+
+#Quote-Box{
+  margin: auto;
+  display: center;
+  background-color: skyblue;
+  border: 0px ridge black;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+/*. fa-quote-right{
+  margin-right: 300px;
+  padding-
+}*/
+
+. fa-quote-left{
+  
+}*/
+
+.btn{
+  display: inline-block;
+  text-align; center;
+  padding: 10px 15px;
+}
+
+#tweet-quote{
+  color: blue;
+  border-radius: 8px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 200px;
+}
+
+#tweet-quote:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ #next-quote{
+  color: pink;
+  border-radius: 8px;
+  float: right;
+   margin-right: 70px;
+   margin-top: 200px;
+}
+
+#next-quote:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
